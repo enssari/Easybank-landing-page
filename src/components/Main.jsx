@@ -294,7 +294,7 @@ export const Main = () => {
         </div>
         <div 
         className={`
-        flex justify-center text-center absolute top-[6rem] left-[3.8rem] bg-white ${menuClicked ? 'flex' : 'hidden'}
+        flex justify-center text-center absolute top-[6rem] sm:left-[7.5rem] left-[3.8rem] bg-white ${menuClicked ? 'flex shadow-xl shadow-black' : 'hidden'}
         w-[24rem] h-[21.3rem] rounded-lg m-auto md:hidden`} id="navbar-items">
             <ul className='list-none text-darkblue font-sans text-[1.4rem] font-medium space-y-7 m-auto'>
                 <li 
@@ -326,9 +326,9 @@ export const Main = () => {
         </div>
     </div>
 
-    <div className="m-auto duration-300 md:hidden block" id="hero">
+    <div className={`m-auto duration-300 md:hidden block`} id="hero">
         <div className="flex flex-col m-auto" id="content-wrapper-1">
-            <div className="space-y-[-14rem] text-center pb-5 m-auto justify-center" id="invite-section">
+            <div className={`space-y-[-14rem] text-center pb-5 m-auto justify-center`} id="invite-section">
                 <img src={bg} className='object-cover w-[100%] h-[22rem] z-[-2] relative m-auto'/>
                 <img src={mockups} 
                 className='
