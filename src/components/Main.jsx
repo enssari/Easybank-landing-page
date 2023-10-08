@@ -251,13 +251,13 @@ export const Main = () => {
                     <div className="grid grid-cols-2" id="middle">
                         <div className="space-y-3 flex flex-col text-[#e3e1e1] text-[.9rem]" id="left-links">
                             <button className='border-none hover:cursor-pointer hover:text-limegreen hover:font-medium'>About Us</button>
-                            <button className='border-none hover:cursor-pointer hover:text-limegreen hover:font-medium'>Contact</button>
-                            <button className='border-none hover:cursor-pointer hover:text-limegreen hover:font-medium'>Blog</button>
+                            <button className='border-none hover:cursor-pointer ml-[-.7rem] hover:text-limegreen hover:font-medium'>Contact</button>
+                            <button className='border-none hover:cursor-pointer ml-[-1.8rem] hover:text-limegreen hover:font-medium'>Blog</button>
                         </div>
                         <div className="space-y-3 text-[#e3e1e1] text-[.9rem] flex flex-col w-[6rem]" id="right-links">
                             <button className='border-none hover:cursor-pointer hover:text-limegreen hover:font-medium'>Careers</button>
                             <button className='border-none hover:cursor-pointer hover:text-limegreen hover:font-medium'>Support</button>
-                            <button className='border-none hover:cursor-pointer hover:text-limegreen hover:font-medium'>Privacy Policy</button>
+                            <button className='border-none hover:cursor-pointer ml-[1rem] hover:text-limegreen hover:font-medium w-[6rem]'>Privacy Policy</button>
                         </div>
                     </div>
                     
