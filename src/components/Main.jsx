@@ -250,14 +250,14 @@ export const Main = () => {
 
                     <div className="grid grid-cols-2" id="middle">
                         <div className="space-y-3 flex flex-col text-[#e3e1e1] text-[.9rem]" id="left-links">
-                            <a href="#" className='hover:cursor-pointer hover:text-limegreen hover:font-medium'>About Us</a>
-                            <a href="#" className='hover:cursor-pointer hover:text-limegreen hover:font-medium'>Contact</a>
-                            <a href="#" className='hover:cursor-pointer hover:text-limegreen hover:font-medium'>Blog</a>
+                            <button className='border-none hover:cursor-pointer hover:text-limegreen hover:font-medium'>About Us</button>
+                            <button className='border-none hover:cursor-pointer hover:text-limegreen hover:font-medium'>Contact</button>
+                            <button className='border-none hover:cursor-pointer hover:text-limegreen hover:font-medium'>Blog</button>
                         </div>
                         <div className="space-y-3 text-[#e3e1e1] text-[.9rem] flex flex-col w-[6rem]" id="right-links">
-                            <a href="#" className='hover:cursor-pointer hover:text-limegreen hover:font-medium'>Careers</a>
-                            <a href="#" className='hover:cursor-pointer hover:text-limegreen hover:font-medium'>Support</a>
-                            <a href="#" className='hover:cursor-pointer hover:text-limegreen hover:font-medium'>Privacy Policy</a>
+                            <button className='border-none hover:cursor-pointer hover:text-limegreen hover:font-medium'>Careers</button>
+                            <button className='border-none hover:cursor-pointer hover:text-limegreen hover:font-medium'>Support</button>
+                            <button className='border-none hover:cursor-pointer hover:text-limegreen hover:font-medium'>Privacy Policy</button>
                         </div>
                     </div>
                     
@@ -482,12 +482,12 @@ export const Main = () => {
                     </div>
                     <div className="" id="linked-items">
                         <ul className='list-none text-[#e3e1e1] text-[1.1rem] space-y-5 flex flex-col'>
-                            <a href="#" className='hover:cursor-pointer hover:text-limegreen hover:font-medium'>About Us</a>
-                            <a href="#" className='hover:cursor-pointer hover:text-limegreen hover:font-medium'>Contact</a>
-                            <a href="#" className='hover:cursor-pointer hover:text-limegreen hover:font-medium'>Blog</a>
-                            <a href="#" className='hover:cursor-pointer hover:text-limegreen hover:font-medium'>Careers</a>
-                            <a href="#" className='hover:cursor-pointer hover:text-limegreen hover:font-medium'>Support</a>
-                            <a href="#" className='hover:cursor-pointer hover:text-limegreen hover:font-medium'>Privacy Policy</a>
+                            <button className='border-none hover:cursor-pointer hover:text-limegreen hover:font-medium'>About Us</button>
+                            <button className='border-none hover:cursor-pointer hover:text-limegreen hover:font-medium'>Contact</button>
+                            <button className='border-none hover:cursor-pointer hover:text-limegreen hover:font-medium'>Blog</button>
+                            <button className='border-none hover:cursor-pointer hover:text-limegreen hover:font-medium'>Careers</button>
+                            <button className='border-none hover:cursor-pointer hover:text-limegreen hover:font-medium'>Support</button>
+                            <button className='border-none hover:cursor-pointer hover:text-limegreen hover:font-medium'>Privacy Policy</button>
                         </ul>
                     </div>
                     <div className="" id="invite-button-footer">
