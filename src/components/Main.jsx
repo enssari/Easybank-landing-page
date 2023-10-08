@@ -40,7 +40,7 @@ export const Main = () => {
         flex flex-row space-x-[3.3rem] z-[1000] bg-white lg:space-x-[10rem] xl:space-x-[15rem] 2xl:space-x-[20rem] justify-center p-4 mt-3
         " id="navbar-content-pc">
             <div className="" id="logo">
-                <img src={logoBlue} className='h-[1.4rem] w-[8rem] 2xl:w-[10rem] mt-3'/>
+                <img src={logoBlue} alt='logo' className='h-[1.4rem] w-[8rem] 2xl:w-[10rem] mt-3'/>
             </div>
             <div className="" id="navbar-items-pc">
                 <ul className='list-none space-x-6 flex flex-row text-grayishblue mt-3'>
@@ -109,8 +109,8 @@ export const Main = () => {
                 </div>
                 <div className="z-[-1000] relative" id="right-side">
                     <div className="h-[25rem] lg:h-[30rem]" id="img-wrapper">
-                        <img src={bg} className='h-[30rem] z-[-1000] xl:ml-3 w-full lg:h-[35rem] lg:w-[37rem] xl:h-[35rem] xl:w-[40rem] 2xl:w-[50rem]'/>
-                        <img src={mockups} 
+                        <img src={bg} alt='bg' className='h-[30rem] z-[-1000] xl:ml-3 w-full lg:h-[35rem] lg:w-[37rem] xl:h-[35rem] xl:w-[40rem] 2xl:w-[50rem]'/>
+                        <img src={mockups} alt='mockups'
                         className='
                         z-[1] relative top-[-34.5rem] lg:top-[-39.5rem] xl:top-[-39.5rem] left-12 xl:left-[5rem] 2xl:left-[7rem] h-[34rem] lg:h-[45rem] 
                         xl:h-[50rem] 2xl:h-[52rem]'/>
@@ -131,7 +131,7 @@ export const Main = () => {
                 </div>
                     <div className="flex flex-row space-x-10 ml-5 xl:ml-[8rem] 2xl:ml-[16rem] justify-center" id="why-choose-items-pc">
                         <div className="flex flex-col space-y-4" id="ob-pc">
-                            <img src={ob} className='w-[3rem] xl:w-[4.5rem]'/>
+                            <img src={ob} alt='ob' className='w-[3rem] xl:w-[4.5rem]'/>
                             <div className="" id="ob-text-pc">
                                 <h1 className='text-darkblue text-[1.2rem] xl:text-[1.5rem]'>Online Banking</h1>
                                 <p className='text-grayishblue text-[.8rem] xl:text-[1rem] xl:w-[15rem] 2xl:w-[17rem] leading-[1.3rem]'>
@@ -140,7 +140,7 @@ export const Main = () => {
                             </div>
                         </div>
                         <div className="flex flex-col space-y-4" id="budgeting-pc">
-                            <img src={budgeting} className='w-[3rem] xl:w-[4.5rem]'/>
+                            <img src={budgeting} alt='budgeting' className='w-[3rem] xl:w-[4.5rem]'/>
                             <div className="" id="budgeting-text-pc">
                                 <h1 className='text-darkblue text-[1.2rem] w-[9.5rem] xl:w-[12rem] xl:text-[1.5rem]'>Simple Budgeting</h1>
                                 <p className='text-grayishblue text-[.8rem] xl:text-[1rem] xl:w-[15rem] 2xl:w-[17rem] leading-[1.3rem]'>
@@ -150,7 +150,7 @@ export const Main = () => {
                             </div>
                         </div>
                         <div className="flex flex-col space-y-4" id="onboarding-pc">
-                            <img src={onboard} className='w-[3rem] xl:w-[4.5rem]'/>
+                            <img src={onboard} alt='onboard' className='w-[3rem] xl:w-[4.5rem]'/>
                             <div className="" id="onboarding-text-pc">
                                 <h1 className='text-darkblue text-[1.2rem] xl:text-[1.5rem]'>Fast Onboarding</h1>
                                 <p className='text-grayishblue text-[.8rem] xl:text-[1rem] xl:w-[15rem] 2xl:w-[17rem] leading-[1.3rem]'>
@@ -160,7 +160,7 @@ export const Main = () => {
                             </div>
                         </div>
                         <div className="flex flex-col space-y-4" id="api-pc">
-                            <img src={api} className='w-[3rem] xl:w-[4.5rem]'/>
+                            <img src={api} alt='api' className='w-[3rem] xl:w-[4.5rem]'/>
                             <div className="" id="api-text-pc">
                                 <h1 className='text-darkblue text-[1.2rem] xl:text-[1.5rem]'>Open API</h1>
                                 <p className='text-grayishblue text-[.8rem] xl:text-[1rem] xl:w-[15rem] 2xl:w-[17rem] leading-[1.3rem]'>
@@ -182,7 +182,7 @@ export const Main = () => {
                     flex flex-row m-auto w-[44.2rem] lg:w-[60.7rem] xl:w-[70rem] 2xl:w-[76rem] space-x-7 xl:space-x-7 relative lg:left-[.5rem]
                     xl:left-[0.2rem] 2xl:left-[-1.8rem]" id="section-tables">
                         <div className="" id="money-table-pc">
-                            <img src={money} className='h-[6.5rem] w-[12rem] lg:h-[8rem] lg:w-[20rem] xl:h-[12rem]'/>
+                            <img src={money} alt='money' className='h-[6.5rem] w-[12rem] lg:h-[8rem] lg:w-[20rem] xl:h-[12rem]'/>
                             <div className="p-5 w-[10rem] lg:w-[14rem] xl:w-[16.2rem] 2xl:w-[17.7rem]" id="money-text-pc">
                                 <h4 className='text-grayishblue text-[.8rem]'>By Claire Robinson</h4>
                                 <h1 className='text-darkblue font-sans text-[1.2rem] hover:cursor-pointer hover:text-limegreen duration-100'>
@@ -194,7 +194,7 @@ export const Main = () => {
                             </div>
                         </div>
                         <div className="" id="restaurant-table-pc">
-                            <img src={restaurant} className='h-[6.5rem] w-[12rem] lg:h-[8rem] lg:w-[20rem] xl:h-[12rem]'/>
+                            <img src={restaurant} alt='restaurant' className='h-[6.5rem] w-[12rem] lg:h-[8rem] lg:w-[20rem] xl:h-[12rem]'/>
                             <div className="p-5 w-[10.2rem] lg:w-[14.6rem] xl:w-[16.2rem] 2xl:w-[17.7rem]" id="restaurant-text-pc">
                                 <h4 className='text-grayishblue text-[.8rem]'>By Wilson Hutton</h4>
                                 <h1 className='text-darkblue font-sans text-[1.2rem] hover:cursor-pointer hover:text-limegreen duration-100'>
@@ -206,7 +206,7 @@ export const Main = () => {
                             </div>
                         </div>
                         <div className="" id="plane-table-pc">
-                            <img src={plane} className='h-[6.5rem] w-[12rem] lg:h-[8rem] lg:w-[20rem] xl:h-[12rem]'/>
+                            <img src={plane} alt='plane' className='h-[6.5rem] w-[12rem] lg:h-[8rem] lg:w-[20rem] xl:h-[12rem]'/>
                             <div className="p-5 w-[10rem] lg:w-[14rem] xl:w-[16.2rem] 2xl:w-[17.7rem]" id="plane-text-pc">
                                 <h4 className='text-grayishblue text-[.8rem]'>By Wilson Hutton</h4>
                                 <h1 className='text-darkblue font-sans text-[1.2rem] hover:cursor-pointer hover:text-limegreen duration-100'>
@@ -219,7 +219,7 @@ export const Main = () => {
                             </div>
                         </div>
                         <div className="" id="confetti-table-pc">
-                            <img src={confetti} className='h-[6.5rem] w-[12rem] lg:h-[8rem] lg:w-[20rem] xl:h-[12rem]'/>
+                            <img src={confetti} alt='confetti' className='h-[6.5rem] w-[12rem] lg:h-[8rem] lg:w-[20rem] xl:h-[12rem]'/>
                             <div className="p-5 w-[10.2rem] lg:w-[14.7rem] xl:w-[16.1rem] 2xl:w-[17.6rem]" id="confetti-text-pc">
                                 <h4 className='text-grayishblue text-[.8rem]'>By Claire Robinson</h4>
                                 <h1 className='text-darkblue font-sans text-[1.2rem] hover:cursor-pointer hover:text-limegreen duration-100'>
@@ -238,13 +238,13 @@ export const Main = () => {
             <div className="m-auto bg-darkblue w-full relative top-[12rem] xl:top-[15rem] 2xl:top-[17rem] pb-2" id="footer-pc">
                 <div className="grid grid-cols-3 p-8 space-x-[1rem]" id="footer-content-pc">
                     <div className="flex flex-col space-y-12 w-[15rem] m-auto" id="left-side">
-                        <img src={logo} className='w-[8rem]'/>
+                        <img src={logo} alt='logo' className='w-[8rem]'/>
                         <div className="flex flex-row space-x-4" id="socials-pc">
-                            <img src={face} className='w-[1.5rem] hover:cursor-pointer hover:bg-limegreen'/>
-                            <img src={youtube} className='w-[1.5rem] hover:cursor-pointer hover:bg-limegreen hover:rounded-full'/>
-                            <img src={twitter} className='w-[1.5rem] hover:cursor-pointer'/>
-                            <img src={pinterest} className='w-[1.5rem] hover:cursor-pointer hover:bg-limegreen hover:rounded-full'/>
-                            <img src={instagram} className='w-[1.5rem] hover:cursor-pointer hover:bg-limegreen hover:rounded-lg'/>
+                            <img src={face} alt='face' className='w-[1.5rem] hover:cursor-pointer hover:bg-limegreen'/>
+                            <img src={youtube} alt='youtube' className='w-[1.5rem] hover:cursor-pointer hover:bg-limegreen hover:rounded-full'/>
+                            <img src={twitter} alt='twitter' className='w-[1.5rem] hover:cursor-pointer'/>
+                            <img src={pinterest} alt='pinterest' className='w-[1.5rem] hover:cursor-pointer hover:bg-limegreen hover:rounded-full'/>
+                            <img src={instagram} alt='instagram' className='w-[1.5rem] hover:cursor-pointer hover:bg-limegreen hover:rounded-lg'/>
                         </div>
                     </div>
 
@@ -281,10 +281,10 @@ export const Main = () => {
     <div className='m-auto bg-white z-[1000] md:hidden block' id="navbar">
         <div className='flex m-auto justify-between p-6' id="navbar-content">
             <div id="logo">
-                <img src={logoBlue} className='w-[10rem] h-[1.6rem]'/>
+                <img src={logoBlue} alt='logo' className='w-[10rem] h-[1.6rem]'/>
             </div>
             <div className=":hidden" id='menu&close'>
-                <img src={close} onClick={toggleCancel} 
+                <img src={close} alt='close' onClick={toggleCancel} 
                 className={`
                 hover:cursor-pointer ${menuClicked ? 'flex' : 'hidden'} duration-300 w-[1.3rem]`}/>
                 <AiOutlineMenu onClick={toggleMenu} size={25}
@@ -329,8 +329,8 @@ export const Main = () => {
     <div className={`m-auto duration-300 md:hidden block`} id="hero">
         <div className="flex flex-col m-auto" id="content-wrapper-1">
             <div className={`space-y-[-14rem] text-center pb-5 m-auto justify-center`} id="invite-section">
-                <img src={bg} className='object-cover w-[100%] h-[22rem] z-[-2] relative m-auto'/>
-                <img src={mockups} 
+                <img src={bg} alt='bg' className='object-cover w-[100%] h-[22rem] z-[-2] relative m-auto'/>
+                <img src={mockups} alt='mockups'
                 className='
                 w-[30.2rem] h-[29.6rem] relative top-[-14.4rem] left-[0rem] z-[-1] object-contain m-auto'/>
                 <div className="space-y-4 w-[26rem] pb-[4.5rem] ml-[2.5rem] m-auto" id="text-wrapper">
@@ -360,7 +360,7 @@ export const Main = () => {
                     <div className="flex flex-col justify-center text-center m-auto space-y-7" id="why-choose-items">
                         <div className="" id="ob">
                             <div className="flex m-auto relative justify-center" id="ob-img">
-                                <img src={ob} className='w-[5.2rem] object-cover relative'/>
+                                <img src={ob} alt='ob' className='w-[5.2rem] object-cover relative'/>
                             </div>
                             <div className="w-[23.5rem] ml-[0rem]" id="text-wrapper-ob">
                                 <h1 className='text-darkblue text-[1.5rem]'>Online Banking</h1>
@@ -372,7 +372,7 @@ export const Main = () => {
                         </div>
                         <div className="" id="budgeting">
                             <div className="flex m-auto relative justify-center" id="budget-img">
-                                <img src={budgeting} className='w-[5.2rem] object-cover relative'/>
+                                <img src={budgeting} alt='budgeting' className='w-[5.2rem] object-cover relative'/>
                             </div>
                             <div className="w-[23.5rem] ml-[0rem]" id="text-wrapper-budget">
                                 <h1 className='text-darkblue text-[1.5rem]'>Simple Budgeting</h1>
@@ -384,7 +384,7 @@ export const Main = () => {
                         </div>
                         <div className="" id="onboard">
                             <div className="flex m-auto relative justify-center" id="onboard-img">
-                                <img src={onboard} className='w-[5.2rem] object-cover relative'/>
+                                <img src={onboard} alt='onboard' className='w-[5.2rem] object-cover relative'/>
                             </div>          
                             <div className="w-[23.5rem] ml-[0rem]" id="text-wrapper-onboard">
                                 <h1 className='text-darkblue text-[1.5rem]'>Fast Onboarding</h1>
@@ -396,7 +396,7 @@ export const Main = () => {
                         </div>
                         <div className="" id="api">
                             <div className="flex m-auto relative justify-center" id="api-img">
-                                <img src={api} className='w-[5.2rem] object-cover relative'/>
+                                <img src={api} alt='api' className='w-[5.2rem] object-cover relative'/>
                             </div>
                             <div className="w-[23.5rem] ml-[0rem]" id="text-wrapper-api">
                                 <h1 className='text-darkblue text-[1.5rem]'>Open API</h1>
@@ -415,7 +415,7 @@ export const Main = () => {
                         Latest Articles
                     </div>
                        <div className="" id="currency-table">
-                            <img src={money} className='w-[25rem] h-[15rem] object-cover rounded-lg' />
+                            <img src={money} alt='money' className='w-[25rem] h-[15rem] object-cover rounded-lg' />
                             <div className="w-[22rem] ml-6 p-7" id="currency-text">
                                 <h4 className='text-grayishblue text-[.8rem]'>By Claire Robinson</h4>
                                 <h1 className='text-darkblue font-sans text-[1.2rem] hover:cursor-pointer hover:text-limegreen duration-100'>
@@ -428,7 +428,7 @@ export const Main = () => {
                             </div>
                         </div>
                         <div className="" id="restaurant-table">
-                            <img src={restaurant} className='w-[25rem] h-[15rem] object-cover rounded-lg' />
+                            <img src={restaurant} alt='restaurant' className='w-[25rem] h-[15rem] object-cover rounded-lg' />
                             <div className="w-[22rem] ml-6 p-7" id="currency-text">
                                 <h4 className='text-grayishblue text-[.8rem]'>By Wilson Hutton</h4>
                                 <h1 className='text-darkblue font-sans text-[1.2rem] hover:cursor-pointer hover:text-limegreen duration-100'>
@@ -440,7 +440,7 @@ export const Main = () => {
                             </div>
                         </div>    
                         <div className="" id="plane-table">
-                            <img src={plane} className='w-[25rem] h-[15rem] object-cover rounded-lg' />
+                            <img src={plane} alt='plane' className='w-[25rem] h-[15rem] object-cover rounded-lg' />
                             <div className="w-[22rem] ml-6 p-7" id="plane-text">
                                 <h4 className='text-grayishblue text-[.8rem]'>By Wilson Hutton</h4>
                                 <h1 className='text-darkblue font-sans text-[1.2rem] hover:cursor-pointer hover:text-limegreen duration-100'>
@@ -453,7 +453,7 @@ export const Main = () => {
                             </div>
                         </div>
                         <div className="" id="confetti-table">
-                            <img src={confetti} className='w-[25rem] h-[15rem] object-cover rounded' />
+                            <img src={confetti} alt='confetti' className='w-[25rem] h-[15rem] object-cover rounded' />
                             <div className="w-[22rem] ml-6 p-7" id="confetti-text">
                                 <h4 className='text-grayishblue text-[.8rem]'>By Claire Robinson</h4>
                                 <h1 className='text-darkblue font-sans text-[1.2rem] hover:cursor-pointer hover:text-limegreen duration-100'>
@@ -471,14 +471,14 @@ export const Main = () => {
             <div className="m-auto bg-darkblue w-full md:hidden block" id="footer">
                 <div className='text-center justify-center flex flex-col space-y-12 px-[7.5rem] py-11' id="content-wrapper-4">
                     <div className="justify-center flex" id="logo-2">
-                        <img src={logo} className='w-[10rem]'/>
+                        <img src={logo} alt='logo' className='w-[10rem]'/>
                     </div>
                     <div className="flex flex-row space-x-4 justify-center" id="social-icons">
-                        <img src={face} className='w-[2rem] hover:cursor-pointer hover:bg-limegreen'/>
-                        <img src={youtube} className='w-[2rem] hover:cursor-pointer hover:bg-limegreen hover:rounded-full'/>
-                        <img src={twitter} className='w-[2rem] hover:cursor-pointer'/>
-                        <img src={pinterest} className='w-[2rem] hover:cursor-pointer hover:bg-limegreen hover:rounded-full'/>
-                        <img src={instagram} className='w-[2rem] hover:cursor-pointer hover:bg-limegreen hover:rounded-lg'/>
+                        <img src={face} alt='face' className='w-[2rem] hover:cursor-pointer hover:bg-limegreen'/>
+                        <img src={youtube} alt='youtube' className='w-[2rem] hover:cursor-pointer hover:bg-limegreen hover:rounded-full'/>
+                        <img src={twitter} alt='twitter' className='w-[2rem] hover:cursor-pointer'/>
+                        <img src={pinterest} alt='pinterest' className='w-[2rem] hover:cursor-pointer hover:bg-limegreen hover:rounded-full'/>
+                        <img src={instagram} alt='instagram' className='w-[2rem] hover:cursor-pointer hover:bg-limegreen hover:rounded-lg'/>
                     </div>
                     <div className="" id="linked-items">
                         <ul className='list-none text-[#e3e1e1] text-[1.1rem] space-y-5 flex flex-col'>
